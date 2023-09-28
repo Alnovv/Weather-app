@@ -50,7 +50,7 @@ searchBtn.addEventListener('click', ()=>{
 const cityInput = document.getElementById('cityInput');
 
 cityInput.addEventListener('keydown', (event) => {
-    if (event.key === 'Enter') {
+    if (event.key === 'Enter' || event.key === 'Go') {
         checkWeather(cityInput.value);
     }
 });
