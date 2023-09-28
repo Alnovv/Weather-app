@@ -47,4 +47,14 @@ searchBtn.addEventListener('click', ()=>{
     checkWeather(searchBox.value);
 })
 
+const cityInput = document.getElementById('cityInput');
 
+cityInput.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+        checkWeather(cityInput.value);
+    }
+});
+
+searchBtn.addEventListener('click', () => {
+    checkWeather(cityInput.value);
+});

@@ -100,11 +100,10 @@ body{
 }
 
 .error{
-    text-align: left;
-    margin-left: 10px;
-    font-size: 14px;
-    margin-top: 10px;
+    text-align: center;
     display: none;
 }
 
-
+.error img{
+    width: 100%;
+}
